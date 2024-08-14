@@ -28,19 +28,6 @@ O projeto está organizado em várias classes para facilitar a manutenção e co
 - **Arquivo de Entrada (entrada.txt):** O arquivo de entrada contém as informações dos cursos e candidatos, conforme o formato especificado.
 - **Arquivo de Saída (saida.txt):** O arquivo de saída é gerado pelo programa, contendo a lista de candidatos selecionados e as filas de espera para cada curso, em ordem decrescente de nota.
 
-## Como Executar
-
-1. Certifique-se de ter o Java instalado em seu ambiente.
-2. Compile os arquivos `.java` utilizando o comando:
-   ```bash
-   javac *.java
-   ```
-3. Execute o programa passando o arquivo de entrada como argumento:
-   ```bash
-   java GerenciadorDeProcessoSeletivo entrada.txt
-   ```
-4. O arquivo `saida.txt` será gerado na mesma pasta do programa com os resultados.
-
 ## Desenvolvimento
 
 - **Estrutura de Dados:** Foi implementada uma estrutura de dados de Lista e Fila flexíveis para gerenciar os candidatos e as filas de espera.
@@ -55,6 +42,4 @@ Realizamos diversos testes com diferentes cenários para garantir o funcionament
 
 Este projeto é de uso acadêmico e segue as diretrizes da PUC Minas para trabalhos práticos.
 
----
 
-Você pode personalizar as seções conforme o seu código e a dinâmica do seu grupo de trabalho. Se precisar de mais alguma modificação ou ajuda, é só avisar!
